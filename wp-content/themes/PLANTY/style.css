@@ -5,4 +5,61 @@ Description: Projet openclassroom Planty
 Version: 1.0
 Template:twentytwenty
 */
+h1 {color:#00D084;}
+h2 {color:#00D084;}
+#site-content .marginb0{margin-bottom: 0;}
+body footer#site-footer {
+    margin-top: 0 !important;
+}
 
+.basarrondi{ 
+    border-radius: 0 0 70% 70%;
+    max-width: none !important;
+}
+
+.blocfondblanc {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+#site-content .sansmargecotes {
+    max-width: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+/* Formulaire de commande */
+
+.monformulaire {
+    display:flex;
+}
+
+.centreformulaire {
+    margin: 30px;
+    background: white;
+    width: 2px;
+}
+/* page précommande*/
+.commande {background-color: #00D084;}
+.commander2.custom-background.custom-background {
+
+    background-color: #008000;
+  }
+
+
+
+
+
+
+  /* Responsive */
+
+  @media only screen and (max-width: 750px) {
+    .monformulaire {
+        flex-direction: column;
+    }
+    .centreformulaire{
+        display: none;
+    }
+
+}
