@@ -11,6 +11,16 @@ h2 {color:#00D084;}
 body footer#site-footer {
     margin-top: 0 !important;
 }
+/* Bouton */
+
+
+
+
+
+
+
+
+border-radius: 5px;
 
 .basarrondi{ 
     border-radius: 0 0 70% 70%;
@@ -41,13 +51,11 @@ body footer#site-footer {
     width: 2px;
 }
 /* page précommande*/
-.commande {background-color: #00D084;}
-.commander2.custom-background.custom-background {
+.post-322 {background-color: #008000;}
 
-    background-color: #008000;
-  }
-
-
+.post-47 {background-color: #008000;}
+.post-5 {background-color: #ECE2DA;}
+.post-43 {background-color: #ECE2DA;}
 
 
 
