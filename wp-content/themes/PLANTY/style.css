@@ -20,7 +20,7 @@ body footer#site-footer {
 
 
 
-border-radius: 5px;
+.border-radius: 5px;
 
 .basarrondi{ 
     border-radius: 0 0 70% 70%;
@@ -51,8 +51,7 @@ border-radius: 5px;
     width: 2px;
 }
 /* page précommande*/
-.post-322 {background-color: #008000;}
-
+#post-322 {background-color: #008000;}
 .post-47 {background-color: #008000;}
 .post-5 {background-color: #ECE2DA;}
 .post-43 {background-color: #ECE2DA;}
