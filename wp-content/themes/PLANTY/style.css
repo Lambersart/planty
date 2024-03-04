@@ -11,18 +11,46 @@ h2 {color:#00D084;}
 body footer#site-footer {
     margin-top: 0 !important;
 }
-/* Bouton */
+
+ header img.custom-logo {
+    max-height: 30px;
+  }
+  .primary-menu a {
+   padding: 20px;
+  }
+
+  #site-header .primary-menu #menu-item-574 a {
+    color:white;
+    background: #DC9F96;
+  }
+ #menu-item-575 a {color:black;}
+.primary-menu li.current-menu-item > a{
+    
+    text-decoration: none;
+  }
+  @media (min-width: 1000px) {
+    .header-inner {
+      padding: 0;
+    }
+  }
+  header .section-inner {
+	width: 100%;
+	max-width: none;
+}
+#site-header .primary-menu li a {
+    color: black;
+    font-weight: normal;
+  }
+
+header .site-logo img.custom-logo {
+    margin-left: 20px;
+  }
+  #menu-item-574 {
+    order: 3;
+  }
 
 
-
-
-
-
-
-
-.border-radius: 5px;
-
-.basarrondi{ 
+.basarrondi { 
     border-radius: 0 0 70% 70%;
     max-width: none !important;
 }
@@ -39,25 +67,104 @@ body footer#site-footer {
     justify-content: center;
   }
 
-/* Formulaire de commande */
+/*image background page d'accueil*/
+.energie {
+    margin: 0 !important;
+    padding: 100px 0;
+    background: url(http://plantyoc.local/wp-content/uploads/2024/02/Sous-canette2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.pensent {
+  background: url(/wp-content/uploads/2024/02/Cannettes-33.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
 
-.monformulaire {
+
+/* Formulaire  commander */
+  .vosinformations {
     display:flex;
+    max-width:100%;}
+
+    .centreformulaire {
+      width: 2px;
+      background: white;
+      margin: 0 30px;
+  }
+  .monformulaire{display: flex;}
+
+  .entry-content .monformulaire h3 {
+    margin: 0 auto;
+}
+.btn_commander p {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.centreformulaire {
-    margin: 30px;
-    background: white;
-    width: 2px;
+span.wpcf7-spinner {
+  display: none;
 }
-/* page précommande*/
+.livraison {display:flex;
+      max-width: 100%;}
+
+/* formulaire livraison*/
+.container {display: flex;}
+
+
+
+ 
+/*background color*/                    
+.commander-2 {background-color: #008000;}
+
+
+/*page commander-3
+#post-769 {background-color:#008000;
+background-image: url(http://plantyoc.local/wp-content/uploads/2024/02/SouscanetteAccueil.png);
+background-repeat: no-repeat;
+background-position:center;}
+*/
+
+/*page précommande*/
 #post-322 {background-color: #008000;}
-.post-47 {background-color: #008000;}
-.post-5 {background-color: #ECE2DA;}
+
 .post-43 {background-color: #ECE2DA;}
 
 
+/* page nous rencontrer */
+.nousrencontrer {
+  background: url(/wp-content/uploads/2024/02/faviconPlanty-1.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-top: 100px;
+  background-size: contain;
+}
+  
+  #post-43 .lequipe {
+    padding-top: 0;
+    background: url(/wp-content/uploads/2024/02/feuille2Left.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 0 0 70px 0;
+  }
 
+
+  .contact_rencontrer form {
+  background: url(/wp-content/uploads/2024/02/Contact.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding: 0 100px;
+  }
+
+  #post-43 .lequipe .photosequipe {
+    max-width: 800px;
+  }
+
+  #site-content .arrondi {
+    background: #ece2da;
+    border-radius: 0 0 65% 65%;
+  }
 
   /* Responsive */
 
